@@ -1,7 +1,7 @@
 package org.example;
 
 import org.example.dataprocessor.DataProcessor;
-import org.example.dataprocessor.clean.Clean;
+import org.example.dataprocessor.Clean.Clean;
 import org.example.dataprocessor.enums.*;
 import org.example.dataprocessor.analysis.*;
 import org.example.dataprocessor.output.*;

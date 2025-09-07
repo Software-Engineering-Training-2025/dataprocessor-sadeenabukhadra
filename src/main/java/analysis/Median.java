@@ -1,4 +1,4 @@
-package analysis.Analysis;
+package analysis;
 
 import java.util.Collections;
 import java.util.List;

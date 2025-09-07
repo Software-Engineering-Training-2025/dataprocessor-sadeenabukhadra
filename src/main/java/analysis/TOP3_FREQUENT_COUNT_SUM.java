@@ -1,4 +1,4 @@
-package analysis.Analysis;
+package analysis;
 
 import java.util.HashMap;
 import java.util.List;

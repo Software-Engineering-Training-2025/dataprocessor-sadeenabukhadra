@@ -1,4 +1,9 @@
 package output;
 
-public class ConsoleOutput {
+public class ConsoleOutput implements Output {
+
+    @Override
+    public void write(double value) {
+        System.out.println("Result = " + value);
+    }
 }
