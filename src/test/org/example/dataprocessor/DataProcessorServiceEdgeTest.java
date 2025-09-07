@@ -1,7 +1,6 @@
 package org.example.dataprocessor;
 
 import org.example.dataprocessor.enums.AnalysisType;
-import org.example.dataprocessor.enums.CleaningType;
 import org.example.dataprocessor.enums.OutputType;
 import org.junit.jupiter.api.Test;
 

@@ -1,8 +1,19 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import org.example.dataprocessor.DataProcessor;
+import org.example.dataprocessor.clean.Clean;
+import org.example.dataprocessor.enums.*;
+import org.example.dataprocessor.analysis.*;
+import org.example.dataprocessor.output.*;
+
+import java.util.Arrays;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        DataProcessor dp = new DataProcessor();
+        dp.process(CleaningType.REMOVE_NEGATIVES,
+                AnalysisType.MEAN,
+                OutputType.CONSOLE,
+                Arrays.asList(5, -2, 7, 8));
     }
 }
