@@ -2,7 +2,6 @@ package org.example.dataprocessor;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.example.dataprocessor.enums.AnalysisType;
-import org.example.dataprocessor.enums.CleaningType;
 import org.example.dataprocessor.enums.OutputType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
